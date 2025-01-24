@@ -1,0 +1,31 @@
+{
+  "name": "dalle2-pipeline",
+  "version": "1.0.0",
+  "description": "A pipeline for processing images with DALL·E and segmentation mask generation.",
+  "main": "dalleController.js",
+  "scripts": {
+    "start": "node dalle-test.js",
+    "test": "node dalle-test.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "DALL-E",
+    "image-processing",
+    "DeepLabV3+",
+    "OpenAI",
+    "mask-generation"
+  ],
+  "author": "Your Name <youremail@example.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^4.0.0",
+    "axios": "^1.5.0",
+    "dotenv": "^16.0.3",
+    "form-data": "^4.0.0",
+    "openai": "^4.80.0",
+    "sharp": "^0.32.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
