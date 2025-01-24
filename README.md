@@ -31,6 +31,12 @@ OPENAI_API_KEY=your_openai_api_key
 
 
 	4.	Add the DeepLabV3+ Model:
+ 
+ ## Download the Model
+Run the following script to download the DeepLabV3+ model:
+```bash
+node download-model.js
+
 	•	Download the ADE20K-Quantized DeepLabV3+ model and place it in:
 
 deepLabv3-models/ade20k-quantized/model.json
