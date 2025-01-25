@@ -15,7 +15,7 @@
     "OpenAI",
     "mask-generation"
   ],
-  "author": "Your Name <youremail@example.com>",
+  "author": "Aravind Veerappan <aravindvrm@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "@tensorflow/tfjs-node": "^4.0.0",
